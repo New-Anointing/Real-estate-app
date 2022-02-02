@@ -1,0 +1,60 @@
+.service-section {
+  padding-top: 8rem;
+  .service-heading {
+    padding-bottom: 4rem;
+    .serviceSpan {
+      font-size: 50px;
+      font-weight: 500;
+      padding-right: 0.5rem;
+    }
+  }
+  .for-card {
+    .card-head-box {
+      padding: 0 16px;
+      font-size: 2.5rem;
+      font-weight: 500;
+    }
+    .card-content {
+      padding-bottom: 0;
+      p {
+        color: $colLightBlack;
+      }
+    }
+    .card-fotter {
+      padding: 0 16px;
+      p a {
+        text-decoration: none;
+        color: $colorBlack;
+        font-size: 18px;
+        font-weight: 300;
+        &:hover {
+          color: $colorPri;
+        }
+      }
+    }
+  }
+}
+section.topProperty {
+  padding: 4rem 0 6rem 0;
+  .topPropertyHeaderContainer {
+    padding-bottom: 5rem;
+    .topPropertyHeader {
+      h2 {
+        font-size: 2.5rem;
+        font-weight: 350;
+      }
+    }
+    .linkToAllProperty {
+      a {
+        float: right;
+        text-decoration: none;
+        color: $colorBlack;
+        font-size: 25px;
+        font-weight: 200;
+        &:hover {
+          color: $colorPri;
+        }
+      }
+    }
+  }
+}

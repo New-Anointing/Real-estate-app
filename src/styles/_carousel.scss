@@ -1,0 +1,50 @@
+div.slide{  
+
+  .carousel-indicators [data-bs-target]{
+    height: 10px;
+    opacity: 1 !important;
+    transition: all .4s ease;
+    width: 20px;
+  }
+
+  button.active{
+    background-color: $colorPri;
+    width: 40px !important;
+  }
+  
+  
+  .carousel-inner {
+    height: 100vh !important;
+    .first-carousel {
+      background-image: url("../components/images/slide-1.jpg");
+      height: 100vh;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+    .second-carousel {
+      background-image: url("../components/images/slide-2.jpg");
+      height: 100vh;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+    .third-carousel {
+      background-image: url("../components/images/slide-3.jpg");
+      height: 100vh;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+    span.overlay {
+      display: block;
+      width: 100vw;
+      height: 100vh;
+      background-image: linear-gradient(
+        0deg,
+        rgba(10, 11, 11, 95) 0%,
+        rgba(60, 86, 51, -95) 100%
+      );
+    }
+  }
+}

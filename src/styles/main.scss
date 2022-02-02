@@ -1,0 +1,15 @@
+$colorPri: #27d369;
+$colorPriLight: #2ab55f70;
+$backgroundColorPriLight: #26bd602c;
+$backgroundColorPriDark:rgba(24, 167, 79, 0.782);
+$colorBlack:#000011;
+$backgroundColorBlackLight:#0000118e;
+$colLightBlack:rgb(94, 92, 92);
+$Raleway: 'Raleway', san-serif;
+
+
+@import "./navbar";
+@import "./home";
+@import './carousel';
+@import './slider';
+@import "./footer"

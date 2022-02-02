@@ -1,0 +1,208 @@
+.title {
+  font-size: 35px;
+  font-weight: 450;
+}
+
+span.main {
+  color: #27d369 !important;
+}
+
+.nav-ul li {
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0 10px;
+}
+
+.service-section {
+  padding-top: 8rem;
+}
+
+.service-section .service-heading {
+  padding-bottom: 4rem;
+}
+
+.service-section .service-heading .serviceSpan {
+  font-size: 50px;
+  font-weight: 500;
+  padding-right: 0.5rem;
+}
+
+.service-section .for-card .card-head-box {
+  padding: 0 16px;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.service-section .for-card .card-content {
+  padding-bottom: 0;
+}
+
+.service-section .for-card .card-content p {
+  color: #5e5c5c;
+}
+
+.service-section .for-card .card-fotter {
+  padding: 0 16px;
+}
+
+.service-section .for-card .card-fotter p a {
+  text-decoration: none;
+  color: #000011;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.service-section .for-card .card-fotter p a:hover {
+  color: #27d369;
+}
+
+section.topProperty {
+  padding: 4rem 0 6rem 0;
+}
+
+section.topProperty .topPropertyHeaderContainer {
+  padding-bottom: 5rem;
+}
+
+section.topProperty .topPropertyHeaderContainer .topPropertyHeader h2 {
+  font-size: 2.5rem;
+  font-weight: 350;
+}
+
+section.topProperty .topPropertyHeaderContainer .linkToAllProperty a {
+  float: right;
+  text-decoration: none;
+  color: #000011;
+  font-size: 25px;
+  font-weight: 200;
+}
+
+section.topProperty .topPropertyHeaderContainer .linkToAllProperty a:hover {
+  color: #27d369;
+}
+
+div.slide .carousel-indicators [data-bs-target] {
+  height: 10px;
+  opacity: 1 !important;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+  width: 20px;
+}
+
+div.slide button.active {
+  background-color: #27d369;
+  width: 40px !important;
+}
+
+div.slide .carousel-inner {
+  height: 100vh !important;
+}
+
+div.slide .carousel-inner .first-carousel {
+  background-image: url("../components/images/slide-1.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+div.slide .carousel-inner .second-carousel {
+  background-image: url("../components/images/slide-2.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+div.slide .carousel-inner .third-carousel {
+  background-image: url("../components/images/slide-3.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+div.slide .carousel-inner span.overlay {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#0a0b0b), to(rgba(60, 86, 51, 0)));
+  background-image: linear-gradient(0deg, #0a0b0b 0%, rgba(60, 86, 51, 0) 100%);
+}
+
+div.mainSliderDiv div.imageDiv {
+  position: relative;
+  overflow: hidden;
+}
+
+div.mainSliderDiv div.imageDiv .imageDivImage {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+div.mainSliderDiv div.imageDiv .imageDivImage:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+div.mainSliderDiv div.imageDiv .imageDivImage:hover + .overlayImageDiv {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+
+div.mainSliderDiv div.imageDiv .overlayImageDiv {
+  position: absolute;
+  background-color: rgba(24, 167, 79, 0.782);
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 40%;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transform: translateY(50%);
+          transform: translateY(50%);
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  padding: 10%;
+}
+
+div.mainSliderDiv div.imageDiv .overlayImageDiv:hover {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+
+div.mainSliderDiv div.imageDiv .overlayImageDiv h3 {
+  font-size: 2.5rem;
+  font-weight: 200;
+}
+
+div.mainSliderDiv div.imageDiv .overlayImageDiv span {
+  border: 1px solid #27d369;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+div.mainSliderDiv div.imageDiv .overlayImageDiv p {
+  margin-top: 20px;
+  font-size: large;
+}
+
+footer.footer {
+  padding-top: 4rem;
+  background-color: #f3f3f3;
+}
+/*# sourceMappingURL=main.css.map */
